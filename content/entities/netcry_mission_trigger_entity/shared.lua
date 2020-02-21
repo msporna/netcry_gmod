@@ -1,0 +1,5 @@
+ENT.Type = "brush"
+ENT.Base="base_entity"
+ENT.PrintName="trigger_mission"
+ENT.Purpose="show mission objective popup message when touched"
+ENT.Author="Michal Sporna"

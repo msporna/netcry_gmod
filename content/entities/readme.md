@@ -1,0 +1,1 @@
+the folders from here go to gmod/lua/entities

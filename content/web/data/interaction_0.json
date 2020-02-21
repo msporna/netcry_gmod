@@ -1,0 +1,90 @@
+{
+  "id": "interaction_0",
+  "entity_1": "player",
+  "entity_2": "netcry_security_guy_1",
+  "sound": "npc_welcome_1",
+  "action": "dialogue",
+  "dialogues": [{
+      "id": 0,
+      "npc_start_line": "Take the package and go.",
+      "dialogue_lines": [{
+          "id": "line_1",
+          "line": "Couriers are not allowed in there. You know that. Get lost!"
+        },
+        {
+          "id": "line_2",
+          "line": "Really? I think your ears need fixing because you heard wrong. Let me help you with that."
+        }
+      ],
+      "dialogue_options": [{
+          "id": "option_1",
+          "action": "nil",
+          "action_param": "nil",
+          "option": "I need a signature from someone. You need to let me in.",
+          "response_id": "line_1",
+          "is_locked": false,
+          "order": 0
+        },
+        {
+          "id": "option_4",
+          "action": "agressive_mode_on",
+          "action_param": "all",
+          "option": "Sir, I heard you keep people inside to use their brains as computing power",
+          "response_id": "line_2",
+          "is_locked": false,
+          "order": 2
+        },
+        {
+          "id": "option_2",
+          "action": "exit",
+          "action_param": "nil",
+          "option": "OK,I'm dissapearing now",
+          "response_id": "nil",
+          "is_locked": false,
+          "order": 3
+        },
+        {
+          "id": "option_3",
+          "action": "go_to_dialogue",
+          "action_param": 1,
+          "option": "Can I ask you something?",
+          "response_id": "nil",
+          "is_locked": false,
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "npc_start_line": "I'm not good at talking but go ahead, try. ",
+      "dialogue_lines": [{
+          "id": "line_0",
+          "line": "hmm?"
+        },
+        {
+          "id": "line_1",
+          "line": "OMG."
+        }
+      ],
+      "dialogue_options": [{
+          "id": "option_1",
+          "action": "nil",
+          "action_param": "nil",
+          "option": "Nothing.",
+          "response_id": "line_1",
+          "is_locked": false,
+          "order": 0
+        },
+        {
+          "id": "option_2",
+          "action": "go_to_dialogue",
+          "action_param": 0,
+          "option": "Go back",
+          "response_id": "nil",
+          "is_locked": false,
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

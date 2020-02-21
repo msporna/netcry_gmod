@@ -1,0 +1,18 @@
+{
+    "actions": [
+      {
+        "npc": "netcry_security_guy_1",
+        "available_actions": [
+          "talk[E]",
+          "hack[H]"
+        ]
+      },
+      {
+        "npc": "netcry_security_guy_2",
+        "available_actions": [
+          "talk[E]",
+          "hack[H]"
+        ]
+      }
+    ]
+  }

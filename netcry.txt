@@ -1,0 +1,31 @@
+"lifo"
+{
+	"base"		"base"
+	"title"		"netcry"
+	"maps"		"^gm_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+		1
+		{
+			"name"		"hmiuc_setName"
+			"text"		"Set your name"
+			"help"		"You need a nickname to exist in this world"
+			"type"		"text"
+			"default"	"hacks00r"
+		}
+
+
+		2
+		{
+			"name"		"hmiuc_option2"
+			"text"		"test"
+			"help"		"test"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+
+	}
+
+}

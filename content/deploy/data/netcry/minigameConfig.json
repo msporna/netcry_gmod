@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "combinations": [{
+    "id": 0,
+    "secondsToFill": 20,
+    "secondsToDetection": 30,
+    "secondsToFillInjection": 10,
+    "injectionsCount": 2,
+    "minimumSpaceBetweenInjections": 3,
+    "secondsToTapOnInjection": 1.5,
+    "allowFreezes": true,
+    "maxFreezes": 3,
+    "minimumSpaceBetweenFreezes": 1,
+    "secondsFreezeValue1": 2,
+    "secondsFreezeValue2": 4,
+    "secondsToTapOnInjectionMark": 1,
+    "injectionMarksCount": 3,
+    "actionOnFail": "no_consequence"
+  }]
+}
