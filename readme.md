@@ -29,10 +29,10 @@
 ## WHAT'S IMPLEMENTED
 
 what I implemented before abandoning the project:
-1.  dialogue system - see video: 
-2. mission objective dialog (javascript based, displayed in game) - see video: 
+1. dialogue system - see video: https://github.com/msporna/netcry_gmod/blob/master/videos/gmod_dialogue_1.mp4
+2. mission objective dialog (javascript based, displayed in game) - see video: https://github.com/msporna/netcry_gmod/blob/master/videos/gmod_objective_popup_1.mp4
 3. hacking minigame (pixi.js based, planned to display it in game just as objective) - play it right in your browser:
-4. created map in Valve hammer 3d - see video:
+4. created map in Valve hammer 3d - see video: https://github.com/msporna/netcry_gmod/blob/master/videos/gmod_map_scene0.mp4
 
 ## resources
 
